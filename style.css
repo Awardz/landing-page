@@ -50,7 +50,7 @@ ul
 {
     font-size: 18px;
     border: 6px;
-    width: 200px;
+    width: 300px;
 }
 
 button.sign-up
@@ -61,6 +61,10 @@ button.sign-up
     padding: 8px 16px;
     border-radius: 8px;
     width: 90px;
+    background: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: #3882F6; 
 }
 
 .box
@@ -131,4 +135,28 @@ button.sign-up
 {
     font-size: 19px;
     margin-left: 450px;
+}
+
+.container-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    margin: 150px;
+    border-radius: 8px;
+    padding: 50px;
+    color: white;
+}
+
+.call
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up
+{
+    margin-right: 100px;
+    
 }
