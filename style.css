@@ -1,11 +1,18 @@
 .header
 {
     display: flex;
-    background-color: purple;
+    background: purple;
+    background-size: cover;
     justify-content: space-between;
     color: white;
     padding: 8px;
     align-items: center;
+    margin: 0;
+}
+
+body
+{
+    margin: auto;
 }
 
 .logo
@@ -158,5 +165,4 @@ button.sign-up
 .sign-up
 {
     margin-right: 100px;
-    
 }
